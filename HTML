@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            background-color: #f4f4f9; /* Un color de fondo suave, casi blanco */
+            color: #333;               /* Un gris oscuro para el texto, más fácil de leer que el negro puro */
+            font-family: sans-serif;    /* Aplicamos la fuente a toda la página */
+        }
+
+        h1 {
+            color: #4A90E2;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;    /* Hacemos la letra un poco más grande */
+            line-height: 1.6;   /* Aumentamos el espacio entre líneas para que se lea mejor */
+            max-width: 600px;   /* Limitamos el ancho para que no sea una línea larguísima */
+            margin: 20px auto;  /* Centramos el bloque de párrafo en la página */
+        }
+        h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px; /* Le damos un poco de espacio arriba */
+}
+footer {
+    text-align: center;
+    margin-top: 50px; /* Más espacio para separar del último proyecto */
+    padding: 20px;
+    color: #666; /* Un color de texto sutil */
+}
+
+.boton-contacto {
+    display: inline-block;
+    background-color: #4A90E2; /* El mismo azul que el título para que combine */
+    color: #ffffff;            /* Texto blanco */
+    padding: 12px 24px;         /* Espaciado interno para que parezca un botón */
+    text-decoration: none;      /* Quita el subrayado feo de los enlaces */
+    border-radius: 6px;         /* Mismas esquinas redondeadas */
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Pequeña animación al pasar el ratón */
+}
+
+.boton-contacto:hover {
+    background-color: #357ABD; /* Un azul un poco más oscuro al pasar el ratón */
+}
+
+/* Fíjate en el punto (.) antes de proyecto-card. 
+   Así le decimos a CSS que estamos buscando una clase */
+.proyecto-card {
+    background-color: #ffffff; /* Fondo blanco para la tarjeta */
+    border: 1px solid #e1e4e8;  /* Un borde sutil */
+    border-radius: 6px;         /* ¡Esquinas redondeadas! */
+    padding: 24px;              /* Espacio interno en la tarjeta */
+    max-width: 600px;
+    margin: 20px auto;          /* Para que se centre */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* Una pequeña sombra para que resalte */
+}
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido a Mi Portafolio</h1>
+    
+    <p>Hola soy un apasionado hombre de 21 años que quiere aprender a programar.</p>
+    <h2>Mis Proyectos</h2>
+
+<div class="proyecto-card">
+    <h3>Proyecto 1: Mi Portafolio</h3>
+    <p>La primera página web que he creado desde cero, usando HTML y CSS para mostrar mis futuras habilidades y proyectos.</p>
+</div>
+
+<div class="proyecto-card">
+    <h3>Proyecto 2 (Próximamente)</h3>
+    <p>Aquí irá la descripción de mi siguiente gran proyecto en cuanto lo empiece.</p>
+</div>
+<footer>
+    <p>¿Te gusta mi trabajo? ¡Contáctame!</p>
+    <a href="mailto:tuemail@ejemplo.com" class="boton-contacto">Enviar un Email</a>
+</footer>
+</body>
+</html>
